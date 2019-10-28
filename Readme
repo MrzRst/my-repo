@@ -1,0 +1,5 @@
+create direcotory : php-conf with contents
+create direcotory : apache-conf with contents
+ln -s ../sites-available/000-default.conf ../sites-enabled/
+docker build -f Dockerfile -t php:1 .
+docker run -d -p 8056:8056 php:1
