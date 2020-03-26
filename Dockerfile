@@ -1,6 +1,6 @@
 FROM ubuntu
 LABEL Maintainer="Mrz.Rst"\
-      Description="ubuntu container with wordpress and php and php-fpm7.2 and mysql and apache"
+      Description="ubuntu container with  php and php-fpm7.2 and apache"
 #ENV LYBERTEAM_TIME_ZONE Europe/Kiev
 #RUN echo $LYBERTEAM_TIME_ZONE > /etc/timezone
 
